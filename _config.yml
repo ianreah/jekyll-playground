@@ -1,1 +1,13 @@
 auto: true
+title: The Trojan Eaters
+description: Covers Band, North East England
+contact-no: 07896 162 064
+navigable-pages:
+  - title: home
+    url: /index.html
+  - title: band
+    url: /band.html
+  - title: gigs
+    url: /gigs.html
+  - title: contact
+    url: /contact.html
