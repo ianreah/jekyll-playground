@@ -23,7 +23,12 @@
 		</ul>
 	</div>
 
-	<div id="content-container">This is the {{ page.selected }} page</div>
+	<div id="content-container">
+		<p>This is the {{ page.selected }} page</p>
+		<p>Debug Info:</p>
+		<p>Site => {{ site | debug }}</p>
+		<p>Page => {{ page | debug }}</p>
+	</div>
 	
 	<div id="footer">  
 		<p>Copyright &copy; The Trojan Eaters | All Rights Reserved<br />tel:  07896 162 064<br /></p>
