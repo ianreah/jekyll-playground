@@ -16,12 +16,7 @@
 	{% assign current_url = page.url %}
 	{% include navigation %}
 
-	<div id="content-container">
-		<p>This is the {{ page.title }} page</p>
-		<p>Debug Info:</p>
-		<p>Site => {{ site | debug }}</p>
-		<p>Page => {{ page | debug }}</p>
-	</div>
+	<div id="content-container">{{ content }}</div>
 	
 	{% assign navigable_pages = site.navigable-pages %}
 	{% assign copyright_name = site.title %}
