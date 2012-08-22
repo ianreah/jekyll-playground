@@ -1,7 +1,9 @@
 <div id="navigation">
 	<ul class="menu">
-		{% for node in site.navigable-pages %}
-			<li id="{{ node.title }}{% if page.url == node.url %}_selected{% endif %}"><a href="{{ node.url }}"><span>#</span></a></li>
+		{% for node in navigable_pages %}
+			<li id="{{ node.title }}{% if current_url == node.url %}_selected{% endif %}"><a href="{{ node.url }}"><span>#</span></a></li>
 		{% endfor %}
 	</ul>
 </div>
+{% assign navigable_pages = nil %}
+{% assign current_url = nil %}

@@ -12,7 +12,8 @@
   </head>
 
   <body>
-	
+	{% assign navigable_pages = site.navigable-pages %}
+	{% assign current_url = page.url %}
 	{% include navigation %}
 
 	<div id="content-container">
@@ -22,6 +23,9 @@
 		<p>Page => {{ page | debug }}</p>
 	</div>
 	
+	{% assign navigable_pages = site.navigable-pages %}
+	{% assign copyright_name = site.title %}
+	{% assign contact_no = site.contact-no %}
 	{% include footer %}
 	
   </body>
