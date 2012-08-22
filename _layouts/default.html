@@ -12,13 +12,8 @@
   </head>
 
   <body>
-	<div id="navigation">
-		<ul class="menu">
-			{% for node in site.navigable-pages %}
-				<li id="{{ node.title }}{% if page.url == node.url %}_selected{% endif %}"><a href="{{ node.url }}"><span>#</span></a></li>
-			{% endfor %}
-		</ul>
-	</div>
+	
+	{% include navigation %}
 
 	<div id="content-container">
 		<p>This is the {{ page.title }} page</p>
@@ -27,13 +22,7 @@
 		<p>Page => {{ page | debug }}</p>
 	</div>
 	
-	<div id="footer">  
-		<p>Copyright &copy; {{ site.title }} | All Rights Reserved<br />tel:  {{ site.contact-no }}<br /></p>
-		<p>
-			{% for node in site.navigable-pages %}
-				<a href="{{ node.url }}">{{ node.title | upcase }}</a>{% if forloop.last == false %} | {% endif %}
-			{% endfor %}
-		</p>
-	</div>  
+	{% include footer %}
+	
   </body>
 </html>
