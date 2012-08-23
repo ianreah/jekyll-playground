@@ -7,7 +7,15 @@ navigable-pages:
     url: /index.html
   - title: band
     url: /band.html
+  - title: set
+    url: /set.html
   - title: gigs
     url: /gigs.html
+  - title: videos
+    url: /videos.html
+  - title: photos
+    url: /photos.html
+  - title: feedback
+    url: /feedback.html
   - title: contact
     url: /contact.html

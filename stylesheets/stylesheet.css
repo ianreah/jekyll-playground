@@ -1,0 +1,160 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #221F1F;
+}
+
+#container {
+	width: 920px;
+	margin: auto;
+}
+
+#navigation {
+	background-image: url(../images/header-bg.jpg);
+	height: 205px;
+	margin: auto;
+}
+
+.menu {
+	padding-top: 114px;
+	font-size: 0px;
+}   
+  
+.menu li{
+	background: url(../images/navigator-sprite.png);
+	display: inline-block;
+	height: 30px;
+}   
+
+.menu li a {
+	display: block;
+	height: 30px;
+}
+  
+.menu span{
+	display: none;   
+}
+
+#home {
+	width: 65px;
+	background-position: -0px -0px;
+}   
+  
+#home_selected {   
+	width: 65px;
+	background-position: -0px -80px;
+}   
+  
+#home:hover {   
+	width: 65px;
+	background-position: -0px -40px;
+}   
+
+#band {
+	width: 67px;
+	background-position: -0px -120px;
+}   
+  
+#band_selected {   
+	width: 67px;
+	background-position: -0px -200px;
+}   
+  
+#band:hover {   
+	width: 67px;
+	background-position: -0px -160px;
+}   
+
+#set {
+	width: 57px;
+	background-position: -0px -240px;
+}   
+  
+#set_selected {   
+	width: 57px;
+	background-position: -0px -320px;
+}   
+  
+#set:hover {   
+	width: 57px;
+	background-position: -0px -280px;
+}   
+
+#gigs {
+	width: 66px;
+	background-position: -0px -360px;
+}   
+  
+#gigs_selected {   
+	width: 66px;
+	background-position: -0px -440px;
+}   
+  
+#gigs:hover {   
+	width: 66px;
+	background-position: -0px -400px;
+}   
+
+#videos {
+	width: 86px;
+	background-position: -0px -480px;
+}   
+  
+#videos_selected {   
+	width: 86px;
+	background-position: -0px -560px;
+}   
+  
+#videos:hover {   
+	width: 86px;
+	background-position: -0px -520px;
+}   
+
+#photos {
+	width: 85px;
+	background-position: -0px -600px;
+}   
+  
+#photos_selected {   
+	width: 85px;
+	background-position: -0px -680px;
+}   
+  
+#photos:hover {   
+	width: 85px;
+	background-position: -0px -640px;
+}   
+
+#feedback {
+	width: 105px;
+	background-position: -0px -720px;
+}   
+  
+#feedback_selected {   
+	width: 105px;
+	background-position: -115px -0px;
+}   
+  
+#feedback:hover {   
+	width: 105px;
+	background-position: -0px -760px;
+}   
+
+#contact {
+	width: 95px;
+	background-position: -115px -40px;
+}   
+  
+#contact_selected {   
+	width: 95px;
+	background-position: -115px -120px;
+}   
+  
+#contact:hover {   
+	width: 95px;
+	background-position: -115px -80px;
+}   
