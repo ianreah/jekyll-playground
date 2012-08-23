@@ -15,6 +15,7 @@ body {
 
 #navigation {
 	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
 	height: 205px;
 	margin: auto;
 }
