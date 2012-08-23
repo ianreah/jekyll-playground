@@ -158,3 +158,24 @@ body {
 	width: 95px;
 	background-position: -115px -80px;
 }   
+
+#footer {
+	font-family: "Courier New", Courier, monospace;
+	background-color: #484343;
+	font-size: 10pt;
+	color: #C0C0C0;
+	text-align: center;
+	padding: 2px 0px;
+}
+
+#footer a:link {
+	color:#FFFFFF;
+}
+
+#footer a:hover {
+	text-decoration:none;
+}
+
+#footer a:visited {
+	color:#FFFFFF;
+}
