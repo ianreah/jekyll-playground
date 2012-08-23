@@ -4,18 +4,18 @@ description: Covers Band, North East England
 contact-no: 07896 162 064
 navigable-pages:
   - title: home
-    url: /index.html
+    url: index.html
   - title: band
-    url: /band.html
+    url: band.html
   - title: set
-    url: /set.html
+    url: set.html
   - title: gigs
-    url: /gigs.html
+    url: gigs.html
   - title: videos
-    url: /videos.html
+    url: videos.html
   - title: photos
-    url: /photos.html
+    url: photos.html
   - title: feedback
-    url: /feedback.html
+    url: feedback.html
   - title: contact
-    url: /contact.html
+    url: contact.html

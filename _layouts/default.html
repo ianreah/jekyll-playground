@@ -14,7 +14,7 @@
   <body>
 	<div id="container">
 		{% assign navigable_pages = site.navigable-pages %}
-		{% assign current_url = page.url %}
+		{% assign current_page = page.title %}
 		{% include navigation %}
 
 		<div id="content">{{ content }}</div>
