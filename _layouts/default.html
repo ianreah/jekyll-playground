@@ -12,17 +12,15 @@
   </head>
 
   <body>
-	<div id="container">
-		{% assign navigable_pages = site.navigable-pages %}
-		{% assign current_page = page.title %}
-		{% include navigation %}
+	{% assign navigable_pages = site.navigable-pages %}
+	{% assign current_page = page.title %}
+	{% include navigation %}
 
-		<div id="content">{{ content }}</div>
-		
-		{% assign navigable_pages = site.navigable-pages %}
-		{% assign copyright_name = site.title %}
-		{% assign contact_no = site.contact-no %}
-		{% include footer %}
-	</div>
+	<div id="container"><div id="content">{{ content }}</div></div>
+	
+	{% assign navigable_pages = site.navigable-pages %}
+	{% assign copyright_name = site.title %}
+	{% assign contact_no = site.contact-no %}
+	{% include footer %}
   </body>
 </html>
