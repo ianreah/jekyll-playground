@@ -37,6 +37,10 @@ a:visited {
 	color:#FFFFFF;
 }
 
+img {
+	border-style: none;
+}
+
 #navigation {
 	background-image: url(../images/header-bg.jpg);
 	background-repeat: no-repeat;
@@ -209,3 +213,17 @@ a:visited {
 	border-color:#979696;
 	margin: auto;
 }
+
+#content > div {
+	padding:25px 40px 40px 40px;
+}
+
+.content_main {
+	width:350px;
+}
+
+.content_sidebar {
+	float:right;
+	width:360px;
+}
+
