@@ -10,6 +10,33 @@ body {
 	margin: auto;
 }
 
+h1 {
+	font-size:12pt;
+	font-weight:bold;
+	color:#C1C218;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+p {
+	font-size:10pt;
+	color:#C0C0C0;
+	margin-bottom: 10px;
+	text-align:justify;
+}
+
+a:link {
+	color:#FFFFFF;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a:visited {
+	color:#FFFFFF;
+}
+
 #navigation {
 	background-image: url(../images/header-bg.jpg);
 	background-repeat: no-repeat;
@@ -160,22 +187,12 @@ body {
 #footer {
 	font-family: "Courier New", Courier, monospace;
 	background-color: #484343;
-	font-size: 10pt;
 	color: #C0C0C0;
-	text-align: center;
 	padding: 2px 0px;
 }
 
-#footer a:link {
-	color:#FFFFFF;
-}
-
-#footer a:hover {
-	text-decoration:none;
-}
-
-#footer a:visited {
-	color:#FFFFFF;
+#footer p {
+	text-align: center;
 }
 
 #container {
@@ -183,4 +200,12 @@ body {
 	background-position:bottom left;
 	background-repeat: no-repeat;
 	padding-bottom:50px;
+}
+
+#content {
+	width:800px;
+	border-style:ridge;
+	border-width:thin;
+	border-color:#979696;
+	margin: auto;
 }
