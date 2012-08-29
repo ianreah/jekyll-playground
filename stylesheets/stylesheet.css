@@ -289,7 +289,7 @@ img {
 }
 
 #social {
-	margin: 0px 0px 0px 100px;
+	margin: 0px 0px 0px 90px;
 }
 
 #social li {
@@ -405,11 +405,11 @@ header {
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 70px 10px 30px 10px;
 }
 
 #project_title {
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 90px;
   color: #fff;
   font-size: 42px;
   font-weight: 700;
