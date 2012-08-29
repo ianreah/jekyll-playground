@@ -131,6 +131,10 @@ a {
   text-shadow: #0090ff 0px 0px 2px;
 }
 
+#main_content p {
+	text-align: justify;
+}
+
 footer a:hover, header a:hover {
   color: #43adff;
   text-shadow: #0090ff 0px 0px 2px;
