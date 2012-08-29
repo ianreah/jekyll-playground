@@ -16,11 +16,12 @@
 	{% assign current_page = page.title %}
 	{% include navigation %}
 
-	<div id="container"><div id="content">{{ content }}</div></div>
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">{{ content }}</section>
+    </div>
 	
-	{% assign navigable_pages = site.navigable-pages %}
 	{% assign copyright_name = site.title %}
-	{% assign contact_no = site.contact-no %}
+	{% assign now = site.time %}
 	{% include footer %}
   </body>
 </html>

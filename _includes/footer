@@ -1,11 +1,8 @@
-<div id="footer">  
-	<p>Copyright &copy; {{ copyright_name }} | All Rights Reserved<br />tel:  {{ contact_no }}<br /></p>
-	<p>
-		{% for node in navigable_pages %}
-			<a href="{{ node.url }}">{{ node.title | upcase }}</a>{% if forloop.last == false %} | {% endif %}
-		{% endfor %}
-	</p>
+<div id="footer_wrap" class="outer">
+  <footer class="inner">
+	<p>&copy; {{ now | date: "%Y"}} {{ copyright_name }}</br>Hosted by <a href="https://github.com/">Github</a> and powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
+  </footer>
 </div>
-{% assign navigable_pages = nil %}
 {% assign copyright_name = nil %}
-{% assign contact_no = nil %}
+{% assign now = nil %}
+
