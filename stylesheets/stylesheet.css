@@ -365,6 +365,13 @@ img {
 	background: url(../images/menu_ends.png) no-repeat left;
 }
 
+.post-date {
+	background: url(../images/icon-date.png) 0 50% no-repeat;
+	padding: 0 16px;
+	color: #909090;
+	font-size: 14px;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
