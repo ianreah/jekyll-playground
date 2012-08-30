@@ -3,8 +3,8 @@ title: ianreah.github.com
 description: 
 navigable-pages:
   - title: home
-    url: /index.html
+    url: /jekyll-playground/index.html
   - title: projects
-    url: /projects.html
+    url: /jekyll-playground/projects.html
   - title: about
-    url: /about.html
+    url: /jekyll-playground/about.html
