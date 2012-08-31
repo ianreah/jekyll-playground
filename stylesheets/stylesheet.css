@@ -365,11 +365,19 @@ img {
 	background: url(../images/menu_ends.png) no-repeat left;
 }
 
-.post-date {
-	background: url(../images/icon-date.png) 0 50% no-repeat;
+.post-meta > li{
+	display: inline-block;
 	padding: 0 16px;
 	color: #909090;
 	font-size: 14px;
+}
+
+.post-comments {
+	background: url(../images/icon-comments.png) 0 50% no-repeat;
+}
+
+.post-date {
+	background: url(../images/icon-date.png) 0 50% no-repeat;
 }
 
 /*******************************************************************************

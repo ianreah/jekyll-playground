@@ -1,6 +1,7 @@
 auto: true
 title: ianreah.github.com
 description: 
+paginate: 5
 navigable-pages:
   - title: home
     url: /jekyll-playground/index.html
